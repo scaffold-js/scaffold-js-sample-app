@@ -1,0 +1,26 @@
+{
+  "generator-scaffold-js": {
+    "appname": "scaffold-js-sample-app",
+    "cfgName": "scaffold-js-sample-app",
+    "cfgDbUrl": "mongodb://localhost:27017/scaffold-js-sample-app",
+    "cfgDescription": "scaffold-js generated application",
+    "cfgContribName": "scaffold-js",
+    "cfgContribEmail": "admin@scaffold-js.org",
+    "cfgContribUrl": "",
+    "cfgRepository": "",
+    "cfgLicense": "MIT",
+    "cfgHomepage": "",
+    "cfgBugs": "",
+    "cfgFramework": "AngularJS",
+    "cfgSocial": [
+      "github",
+      "twitter",
+      "facebook",
+      "google",
+      "linkedin"
+    ],
+    "tlsKey": "-----BEGIN RSA PRIVATE KEY-----\r\nMIICXQIBAAKBgQCd3n/h1DIJ2KTByQAJAjE8cuBc4+BM6Bp+GuhR8BG1d+rWfhu9\r\n1cdaTEpyGZ2V8OOl0oAUmNH6MigSX+xc/wA7AJs17SeBoXb292XZvq+5bqy3ulS+\r\nNWJifB2gkwaPUVfeAOJU10HzkgHo1klfr3xYLzIePkbCXTNnBt+RJTC+uwIDAQAB\r\nAoGAUFyf+oQ7CJoYnHDGLM/J4nyTy5VQa7XHLqRh2Lv9N8QYbiF527PELCojx1tU\r\nxav/Jj02Z8W3NcZscZYUyu4f3hwCTX6jCXzy3manW6RBKaSkNH97EK47ItIgYj81\r\nRhuUSh8vNgFpFuMaiQ4eOQm5lpRmZTZCk5NzY+6oynj4ZJECQQDWd4zxgTngQA8N\r\nt35Q1PBRikD4Mef+ZvJfa6GV4fXw/o2oaYGVrQ0l/joD1FZ7vUCdKKj+yo7jpYv4\r\ndft40yrjAkEAvHELd4NhMWR+BTdGhX2srzvqkELF782Qh/qQDeXvD649ftpZEmVQ\r\nSS43dClVmeiK7aEtJDrkXf2egs7mCoOsSQJBAI+kJpwiBxdxECQJv+p3lDWouXcC\r\nRfWYEcFjHyh53PV6KHqhn48WBnZp3YVvFDVwPfSEpRtxo15JJIRW0QTNui0CQDcB\r\nYHGAXgyG4uou2lz49EEqYiu98f0vqfKnRwlnhsKy/6xZnApsnGTgIru7nQsSAAuh\r\nMoYS0rpE39IbBrcm/FECQQDKPeBhQg989eh8MDcrb7k0AJARdXP0dKnlk7HGSRXx\r\noHzo30ZsLu6bhTWhaFqDlcf4OSj+QyJARbgUlKbqi9ev\r\n-----END RSA PRIVATE KEY-----\r\n",
+    "tlsCsr": "-----BEGIN PUBLIC KEY-----\r\nMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCd3n/h1DIJ2KTByQAJAjE8cuBc\r\n4+BM6Bp+GuhR8BG1d+rWfhu91cdaTEpyGZ2V8OOl0oAUmNH6MigSX+xc/wA7AJs1\r\n7SeBoXb292XZvq+5bqy3ulS+NWJifB2gkwaPUVfeAOJU10HzkgHo1klfr3xYLzIe\r\nPkbCXTNnBt+RJTC+uwIDAQAB\r\n-----END PUBLIC KEY-----\r\n",
+    "tlsCert": "-----BEGIN CERTIFICATE-----\r\nMIIB8zCCAVygAwIBAgIJdrtu+NfduG1UMA0GCSqGSIb3DQEBBQUAMBgxFjAUBgNV\r\nBAMTDXVuZGVmaW5lZC5jb20wHhcNMTYwNDE5MDIwMjI3WhcNMTMxMDA4MDIwMjI3\r\nWjAYMRYwFAYDVQQDEw11bmRlZmluZWQuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GN\r\nADCBiQKBgQCd3n/h1DIJ2KTByQAJAjE8cuBc4+BM6Bp+GuhR8BG1d+rWfhu91cda\r\nTEpyGZ2V8OOl0oAUmNH6MigSX+xc/wA7AJs17SeBoXb292XZvq+5bqy3ulS+NWJi\r\nfB2gkwaPUVfeAOJU10HzkgHo1klfr3xYLzIePkbCXTNnBt+RJTC+uwIDAQABo0Uw\r\nQzAMBgNVHRMEBTADAQH/MAsGA1UdDwQEAwIC9DAmBgNVHREEHzAdhhtodHRwOi8v\r\nZXhhbXBsZS5vcmcvd2ViaWQjbWUwDQYJKoZIhvcNAQEFBQADgYEAXF0TN84BTMJj\r\nAf+2clRXVsfEfygcvXyghWtSeJOgGxe8JSNyEss4dO0XfFW+ToQybKTP+gXuoupB\r\n8bJkwkpz8G3Dwc6BRZUY9WcHYiN5LiDZoX0bNiUtFkS0UblnKdSSPiPxHzHGKVEi\r\nlcU9Bkp/UEAAjwm1E9+LlwXn23PiT8I=\r\n-----END CERTIFICATE-----\r\n"
+  }
+}

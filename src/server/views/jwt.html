@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>scaffold-js-sample-app</title>
+	</head>
+	<body>
+		<div id="token">{{ token }}</div>
+		<script>
+			var token = document.getElementById ('token').innerHTML;
+
+			if ('undefined' !== typeof (Storage)) {
+				localStorage.setItem ('scaffold-js-sample-app.token', token);
+			}
+
+			window.location = '/';
+		</script>
+	</body>
+</html>

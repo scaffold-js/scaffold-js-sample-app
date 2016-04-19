@@ -1,0 +1,441 @@
+{
+	"global": {
+		"account": "Account",
+		"administration": "Administration",
+		"language": "Language",
+		"btn": {
+			"toggleNavigation": "Toggle Navigation"
+		},
+		"pager": {
+			"first": "First",
+			"last": "Last",
+			"next": "Next",
+			"previous": "Previous"
+		}
+	},
+	"home": {
+		"nav": "Home",
+		"title": "Home"
+	},
+	"account": {
+		"nav": "Settings",
+		"title": "Account",
+		"field": {
+			"fullName": "Full Name",
+			"nickname": "What should we call you?",
+			"email": "Email Address",
+			"password": "Password",
+			"confirmPassword": "Confirm Password"
+		},
+		"btn": {
+			"update": "Update"
+		},
+		"msg": {
+			"error": {
+				"failed": "Update failed!",
+				"succeded": "Account updated."
+			},
+			"validate": {
+				"fullName": {
+					"required": "Full name is required."
+				},
+				"nickname": {
+					"required": "Nickname is required."
+				},
+				"email": {
+					"required": "Email address is required.",
+					"email": "Email address is invalid.",
+					"pending": "Checking email adddess...",
+					"taken": "Email address is already in use."
+				},
+				"password": {
+					"pattern": "Password must be at least 8 characters and contain at least one each uppercase, lowercase, numeric, and symbol character."
+				},
+				"confirmPassword": {
+					"required": "Confirmation password is required.",
+					"match": "Passwords do not match."
+				}
+			}
+		}
+	},
+	"register": {
+		"nav": "Register",
+		"title": "Sign Up",
+		"field": {
+			"username": "Username",
+			"fullName": "Full Name",
+			"nickname": "What should we call you?",
+			"email": "Email Address",
+			"password": "Password",
+			"confirmPassword": "Confirm Password"
+		},
+		"btn": {
+			"register": "Register"
+		},
+		"msg": {
+			"error": {
+				"failed": "Registration failed!"
+			},
+			"validate": {
+				"username": {
+					"required": "Username is required.",
+					"pending": "Checking username...",
+					"taken": "Username is already in use."
+				},
+				"fullName": {
+					"required": "Full name is required."
+				},
+				"nickname": {
+					"required": "Nickname is required."
+				},
+				"email": {
+					"required": "Email address is required.",
+					"email": "Email address is invalid.",
+					"pending": "Checking email adddess...",
+					"taken": "Email address is already in use."
+				},
+				"password": {
+					"required": "Password is required.",
+					"pattern": "Password must be at least 8 characters and contain at least one each uppercase, lowercase, numeric, and symbol character."
+				},
+				"confirmPassword": {
+					"required": "Confirmation password is required.",
+					"match": "Passwords do not match."
+				}
+			}
+		}
+	},
+	"login": {
+		"nav": "Sign In",
+		"logoutNav": "Sign Out",
+		"title": "Sign In",
+		"forgotPassword": "Forgot password?",
+		"noAccount": "Don't have an an account?",
+		"signUpHere": "Sign up here.",
+		"field": {
+			"usernameOrEmailAddress": "Username or Email Address",
+			"password": "Password",
+			"rememberMe": "Remember Me"
+		},
+		"btn": {
+			"login": "Sign In",
+			"loginWithGitHub": "Sign In With GitHub",
+			"loginWithTwitter": "Sign In With Tiwtter",
+			"loginWithFacebook": "Sign In With Facebook",
+			"loginWithGoogle": "Sign In With Google",
+			"loginWithLinkedin": "Sign In With Linkedin"
+		},
+		"msg": {
+			"error": {
+				"authb": "Failed to sign in!",
+				"auth": "Please check your credentials and try again."
+			},
+			"validate": {
+				"username": {
+					"required": "Username is required."
+				},
+				"password": {
+					"required": "Password is required."
+				}
+			}
+		}
+	},
+	"forgot": {
+		"title": "Reset Password",
+		"field": {
+			"email": "Email Address",
+			"password": "Password",
+			"confirmPassword": "Confirm Password"
+		},
+		"btn": {
+			"reset": "Reset Password"
+		},
+		"msg": {
+			"enterEmail": "Enter the email address you used to register.",
+			"checkEmail": "Check your email for details on how to reset your password.",
+			"enterPassword": "Enter your new password.",
+			"error": {
+				"reset": "Failed to reset password!"
+			},
+			"validate": {
+				"email": {
+					"required": "Email address is required.",
+					"email": "Invalid email adddress."
+				},
+				"password": {
+					"required": "Password is required.",
+					"pattern": "Password must be at least 8 characters and contain at least one each uppercase, lowercase, numeric, and symbol character."
+				},
+				"confirmPassword": {
+					"required": "Confirmation password is required.",
+					"match": "Passwords do not match."
+				}
+			}
+		}
+	},
+	"log": {
+		"nav": "Logs",
+		"title": "Logs",
+		"btn": {
+			"view": "View",
+			"export": "Export"
+		},
+		"field": {
+			"dates": "Dates",
+			"from": "From",
+			"to": "To",
+			"event": "Event"
+		},
+		"option": {
+			"log": "Log",
+			"ops": "Ops",
+			"request": "Request",
+			"response": "Response"
+		},
+		"header": {
+			"event": "Event",
+			"timestamp": "Timestamp",
+			"host": "Host",
+			"data": "Data",
+			"raw": "Raw"
+		},
+		"data": {
+			"tags": "Tags",
+			"data": "Data",
+			"os": "OS",
+			"proc": "Proc",
+			"load": "Load",
+			"uptime": "Uptime",
+			"totalMem": "Total Memory",
+			"freeMem": "Free Memory",
+			"rssMem": "RSS Memory",
+			"heapTotalMemory": "Total Heap Memory",
+			"heapUsedMemory": "Used Heap Memory",
+			"delay": "Delay",
+			"requests": "Requests",
+			"total": "Total",
+			"disconnects": "Discconects",
+			"statusCode": "Status",
+			"concurrents": "Concurrents",
+			"responseTimes": "Response Times",
+			"avg": "Average",
+			"max": "Max",
+			"sockets": "Sockets",
+			"labels": "Labels",
+			"method": "Method",
+			"path": "Path",
+			"query": "Query",
+			"responseTime": "Response Time",
+			"statusCode": "Status Code",
+			"httpVersion": "HTTP Version",
+			"source": "Source",
+			"remoteAddress": "remoteAddress",
+			"userAgent": "User Agent",
+			"referer": "Referer"
+		}
+	},
+	"audit": {
+		"nav": "Audit Logs",
+		"title": "Audit Logs",
+		"btn": {
+			"view": "View",
+			"export": "Export"
+		},
+		"field": {
+			"dates": "Dates",
+			"from": "From",
+			"to": "To",
+			"event": "Event",
+			"username": "Username"
+		},
+		"option": {
+			"auth": "Authorization",
+			"access": "Access",
+			"change": "Change",
+			"create": "Create"
+		},
+		"header": {
+			"event": "Event",
+			"timestamp": "Timestamp",
+			"user": "User",
+			"status": "Status",
+			"resource": "Resource",
+			"data": "Data"
+		}
+	},
+	"metrics": {
+		"nav": "System Metrics",
+		"title": "System Metrics",
+		"btn": {
+			"refresh": "Refresh"
+		},
+		"os": {
+			"title": "Operating System",
+			"info": {
+				"title": "Information",
+				"arch": "Architecture",
+				"hostname": "Hostname",
+				"platform": "Platform",
+				"release": "Release",
+				"tempdir": "Temporary Directory",
+				"uptime": "Uptime"
+			},
+			"cpus": {
+				"title": "CPUS",
+				"cpu": "CPU",
+				"model": "Model",
+				"speed": "Speed",
+				"times": "Times",
+				"user": "User",
+				"nice": "Nice",
+				"sys": "System",
+				"idle": "Idle",
+				"irq": "IRQ"
+			},
+			"memory": {
+				"title": "Memory",
+				"total": "Total"
+			},
+			"load": {
+				"title": "Load"
+			},
+			"networkInterfaces": {
+				"title": "Network Interfaces",
+				"address": "Address",
+				"netmask": "Netmask",
+				"family": "Family",
+				"mac": "MAC",
+				"scopeid": "Scope Id",
+				"internal": "Internal"
+			}
+		},
+		"process": {
+			"title": "Process",
+			"info": {
+				"title": "Information",
+				"pid": "PID"
+			},
+			"memory": {
+				"title": "Memory",
+				"rss": "RSS",
+				"heap": "Heap"
+			},
+			"env": {
+				"title": "Environment Variables"
+			},
+			"versions": {
+				"title": "Versions"
+			}
+		},
+		"server": {
+			"title": "Server",
+			"info": {
+				"title": "Information",
+				"version": "Version"
+			},
+			"connections": {
+				"title": "Connections",
+				"id": "Id",
+				"host": "Hostname",
+				"address": "Address",
+				"port": "Port",
+				"protocol": "Protocol",
+				"uri": "Uri"
+			}
+		},
+		"db": {
+			"title": "Database",
+			"info": {
+				"title": "Information",
+				"version": "Version",
+				"host": "Hostname",
+				"pid": "PID",
+				"uptime": "Uptime",
+				"ok": "Ok"
+			},
+			"asserts": {
+				"title": "Asserts",
+				"regular": "Regular",
+				"warning": "Warning",
+				"msg": "Msg",
+				"user": "User",
+				"rollovers": "Rollovers"
+			},
+			"backgroundFlushing": {
+				"title": "Background Flushing",
+				"flushes": "Flushes",
+				"totalMs": "Totaal Time",
+				"averageMs": "Average Time",
+				"lastMs": "Last Time",
+				"lastFinished": "Last Finished"
+			},
+			"connections": {
+				"title": "Connections",
+				 "current": "Current",
+				 "available": "Avilable",
+				 "totalCreated": "Total Created"
+			},
+			"network": {
+				"title": "Network",
+				"bytesIn": "In",
+				"bytesOut": "Out",
+				"numRequests": "Requests"
+			},
+			"document": {
+				"title": "Document",
+				"deleted": "Deleted",
+				"inserted": "Inserted",
+				"returned": "Returned",
+				"updated": "Updated"
+			}
+		}
+	},
+	"apidoc": {
+		"nav": "API Documentation"
+	},
+	"users": {
+		"nav": "User Management",
+		"title": "Users",
+		"field": {
+			"username": "Username",
+			"fullName": "Full Name",
+			"nickname": "What should we call you?",
+			"email": "Email Address",
+			"active": "Active"
+		},
+		"msg": {
+			"error": {
+				"failed": "Update failed!",
+				"succeded": "Account updated."
+			},
+			"validate": {
+				"fullName": {
+					"required": "Full name is required."
+				},
+				"nickname": {
+					"required": "Nickname is required."
+				},
+				"email": {
+					"required": "Email address is required.",
+					"email": "Email address is invalid.",
+					"pending": "Checking email adddess...",
+					"taken": "Email address is already in use."
+				}
+			}
+		},
+		"header": {
+			"username": "Username",
+			"fullName": "Full Name",
+			"nickname": "Nickname",
+			"email": "Email Address",
+			"created": "Created",
+			"modified": "Modified",
+			"active": "Active"
+		},
+		"btn": {
+			"search": "Search",
+			"update": "Update",
+			"back": "Back"
+		}
+	}
+}

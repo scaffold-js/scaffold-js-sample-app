@@ -1,0 +1,133 @@
+html, body {
+	padding: 0;
+}
+
+.dev-ribbon {
+	width: 200px;
+	background: #e82;
+	position: absolute;
+	top: 25px;
+	left: -50px;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #f0f0f0;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+.social-button a {
+	margin: 2px;
+}
+
+pre.modal-body {
+	margin-bottom: 0;
+}
+
+.password-strength {
+	ul {
+		padding: 0;
+
+		li {
+			background: #ddd;
+			border-radius: 2px;
+			display: inline-block;
+			height: 5px;
+			margin-right: 1px;
+			width: 20px;
+
+			&.one {
+				background: #f00;
+			}
+
+			&.two {
+				background: #f90;
+			}
+
+			&.three {
+				background: #ff0;
+			}
+
+			&.four {
+				background: #9f0;
+			}
+
+			&.five {
+				background: #0f0;
+			}
+		}
+	}
+}
+
+[ui-view] {
+   &.ng-enter {
+      animation: fadeIn 500ms;
+   }
+
+   &.ng-leave {
+      animation: fadeOut 500ms;
+   }
+}
+
+.content {
+   position: relative;
+
+   & > * {
+      position: absolute;
+      left: 0;
+      right: 0;
+
+      & > * {
+         position: absolute;
+         left: 0;
+         right: 0;
+      }
+
+      .log,
+      .audit {
+         .dropdown-menu {
+            li {
+               min-width: 200px;
+               margin: 0 10px;
+            }
+         }
+
+			.pagination {
+				margin: 0;
+			}
+      }
+
+      .metrics {
+         .scroll {
+            max-height: 400px;
+            overflow: auto;
+         }
+      }
+
+      .users-edit {
+         &.ng-enter {
+				margin-left: 10px;
+            animation: slideInRight 1s;
+         }
+
+         &.ng-leave {
+				margin-left: 10px;
+            animation: slideOutRight 1s;
+         }
+      }
+
+      .users {
+			.pagination {
+				margin: 0;
+			}
+
+         &.ng-enter {
+            animation: slideInLeft 1s;
+         }
+
+         &.ng-leave {
+            animation: slideOutLeft 1s;
+         }
+      }
+   }
+}

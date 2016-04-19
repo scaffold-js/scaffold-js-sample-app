@@ -1,0 +1,59 @@
+{
+	"name": "scaffold-js-sample-app",
+	"version": "1.0.0-alpha.1",
+	"description": "scaffold-js generated application",
+	"keywords": [
+		"NodeJS",
+		"hapi",
+		"Bootstrap",
+		"AngularJS",
+		"MongoDB"
+	],
+	"homepage": "",
+	"bugs": "",
+	"license": "MIT",
+	"contributors": {
+		"name": "scaffold-js",
+		"email": "admin@scaffold-js.org",
+		"url": ""
+	},
+	"main": "index.js",
+	"repository": "",
+	"scripts": {
+		"test": "gulp test"
+	},
+	"dependencies": {
+		"harmony-reflect": "latest",
+		"config": "latest",
+		"hapi": "latest", "joi": "latest", "hoek": "latest",
+		"hapi-swaggered": "latest", "glue": "latest", "inert": "latest",
+		"hapi-auth-jwt2": "latest", "hapi-router": "latest", "crumb": "latest", "bell": "latest", "vision": "latest", "visionary": "latest", "handlebars": "latest",
+		"boom": "latest", "good": "latest", "through2": "latest",
+		"mongodb": "latest", "hapi-mongodb": "latest",
+		"@nesive/hapi-mailer": "latest", "hapi-accept-language": "latest"
+	},
+	"devDependencies": {
+		"gulp": "latest",
+		"gulp-nodemon": "latest", "browser-sync": "latest",
+		"gulp-eslint": "latest", "gulp-json-lint": "latest",
+		"gulp-mocha": "latest", "gulp-istanbul": "latest", "chai": "latest", "dirty-chai": "latest", "chai-as-promised": "latest", "sinon": "latest", "mockery": "latest",
+		"karma": "latest", "karma-jasmine": "latest", "karma-coverage": "latest", "karma-phantomjs-launcher": "latest", "phantomjs-prebuilt": "latest", "jasmine-core": "latest",
+		"istanbul": "latest", "istanbul-threshold-checker": "latest",
+		"gulp-concat": "latest", "gulp-rename": "latest", "gulp-uglify": "latest",
+		"gulp-clean-css": "latest", "gulp-less": "latest", "less": "latest",
+		"gulp-jsonminify": "latest", "gulp-imagemin": "latest",
+		"gulp-processhtml": "latest",
+		"gulp-angular-templatecache": "latest", "gulp-ng-annotate": "latest",
+		"gulp-clean": "latest"
+	},
+	"peerDependencies": {
+	},
+	"bundledDependencies": {
+	},
+	"optionalDependencies": {
+	},
+	"engines": {
+		"node": ">= 5.7.0",
+		"npm": ">= 3.6.0"
+	}
+}

@@ -1,0 +1,64 @@
+<div class="well login">
+	<div class="row">
+		<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title" translate="login.title">Sign In</div>
+				</div>
+				<div class="panel-body">
+					<div class="col-md-8">
+						<div class="alert alert-danger" ng-show="authenticationError">
+							<strong translate="login.msg.error.authb">Failed to sign in!</strong> <span translate="login.msg.error.auth">Please check your credentials and try again.</span>
+						</div>
+						<form novalidate class="form-horizontial" name="form" role="form" ng-submit="login ($event)">
+							<div class="form-group" ng-class="{ 'has-error': form.username.$dirty && form.username.$invalid }">
+								<label for="username" translate="login.field.usernameOrEmailAddress" class="sr-only">Username or Email Address</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-user" aria-hidden="true"></i></span>
+									<input type="text" class="form-control" name="username" autofocus ng-model="username" value="" required placeholder="{{ 'login.field.usernameOrEmailAddress' | translate }}">
+								</div>
+								<div ng-messages="form.username.$dirty && form.username.$error" role="alert" ng-messages-multiple>
+									<p class="help-block" ng-message="required" translate="login.msg.validate.username.required">Unsername is required.</p>
+								</div>
+							</div>
+							<div class="form-group" ng-class="{ 'has-error': form.password.$dirty && form.password.$invalid }">
+								<label for="password" translate="login.field.password" class="sr-only">Password</label>
+								<div class="input-group">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-lock" aria-hidden="true"></i></span>
+									<input type="password" class="form-control" name="password" ng-model="password" required placeholder="{{ 'login.field.password' | translate }}">
+								</div>
+								<div ng-messages="form.password.$dirty && form.password.$error" role="alert" ng-messages-multiple>
+									<p class="help-block" ng-message="required" translate="login.msg.validate.password.required">Password is required.</p>
+								</div>
+							</div>
+							<div class="checkbox">
+								<label>
+									<input type="checkbox" name="rememberMe" ng-model="rememberMe" value="true" /><span translate="login.field.rememberMe">Remember Me</span>
+								</label>
+							</div>
+							<div class="form-group text-right">
+								<button type="submit" ng-disabled="form.$invalid || disable" class="btn btn-primary" translate="login.btn.login">Sign In</button>
+							</div>
+							<div class="row form-group">
+								<div class="col-sm-12">
+									<a ui-sref="forgot" translate="login.forgotPassword">Forgot password?</a>
+									<div>
+										<span translate="login.noAccount">Don't have an account?</span>
+										<a ui-sref="register" translate="login.signUpHere">Sign up here.</a>
+									</div>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="social-button col-md-4">
+						<a href="/authenticate/github"><img src="assets/img/GitHub-Mark-32px.png" alt="{{ 'login.btn.loginWithGitHub' | translate }}" /></a>
+						<a href="/authenticate/twitter"><img src="assets/img/Twitter-Logo-32px.png" alt="{{ 'login.btn.loginWithTwitter' | translate }}" /></a>
+						<a href="/authenticate/facebook"><img src="assets/img/FB-f-Logo__blue_29.png" alt="{{ 'login.btn.loginWithFacebook' | translate }}" /></a>
+						<a href="/authenticate/google"><img src="assets/img/Google-Logo-32px.png" alt="{{ 'login.btn.loginWithGoogle' | translate }}" /></a>
+						<a href="/authenticate/linkedin"><img src="assets/img/In-2C-34px-R.png" alt="{{ 'login.btn.loginWithLinkedin' | translate }}" /></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
